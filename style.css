@@ -1,0 +1,167 @@
+#title{
+    background-color: cadetblue;
+    color: #fff;
+    text-align: left;
+}
+
+
+
+/** Containers **/
+
+.container-fluid{
+    padding: 3% 7%; 
+ 
+}
+
+body{
+    font-family: "montserrat";
+    box-sizing: border-box;
+    
+    
+}
+
+h1, h2, h3, h5, h6 {
+    font-family: "montserrat-bold";
+    text-align: center;
+    font: bolder;
+    background-color: beige;
+}
+
+
+p{
+    color: #8f8f8f;
+    text-align: center;
+    font-family: "montserrat";
+   
+}
+.flex-container{
+     
+    text-align: left;
+    font: bolder;
+    font-size: 1.5rem;
+    
+    padding: 10px 10px 20px 20px;
+    margin-top: 40px;
+    
+    background-color: #fefefe;
+}
+
+.basic-chart{
+   width: 100%;
+  padding: 10px;
+   border: 1px solid #4a4a4a;
+}
+
+.flex-container1{
+   
+   background-color: #fefefe;
+   
+   
+   }
+
+/* Navigation Bar */
+
+.navbar{
+   padding-bottom: 0 0 4.5rem;
+}
+
+
+.navbar-brand {
+   font-family: "Ubuntu";
+   color: #fff;
+   font-size: 2.5rem;
+   
+}
+
+.nav-item{
+   padding: 0 10px;
+}
+
+.nav-link{
+   color: #fff;
+   
+}
+
+
+
+/**Floating Text**/
+
+
+marquee{
+   width: 700px;
+   height: 600px;
+   overflow: hidden;
+  margin: 15px;
+   
+}
+
+.floating-text{
+float: right;
+ 
+background: #fefefe;
+color: #333;
+border: 1px solid #4a4a4a;
+font-family: "montserrat";
+padding: 5px;
+font-size: 1.2rem;
+flex-direction: initial;
+
+
+}
+
+
+/**About us**/
+
+#about{
+   
+   text-align: center;
+   border: 1px solid #4a4a4a;
+   width: 100%
+   margin: 30px 10px 20px 30px;
+   background-color: #fff;
+    
+}
+
+
+#contact us{
+   position: absolute;
+   align-items: center;
+   box-sizing: border-box;
+   
+   
+
+}
+
+
+.contact-message{
+   width: 40%;
+   margin: 30px auto 60px;
+   text-align: center;
+   
+}
+
+
+
+
+
+/**Footer**/
+
+
+#footer{
+    height: 50px;
+    background-color: #fff;
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.copyright{
+    margin-top: 10px;
+   
+}
+
+.social-icon{
+    margin: 20px 10px;
+    text-align: center;
+}
